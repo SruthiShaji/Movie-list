@@ -1,0 +1,109 @@
+
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 80px;
+    border-bottom: 4px solid gray;
+    z-index: 1;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+header div{
+    text-align: right;
+}
+header h1{
+    font-size: 30px;
+}
+.form input[type=search] {
+    color: rgb(192, 190, 190);
+    padding: 7px;
+    margin: 24px 24px;
+    border: none;
+    border-left: 1px solid gray;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    width:15%;
+    background-color: rgba(128, 128, 128, 0.21);
+    border-right: 0.5px solid rgb(194, 192, 192);
+    position: relative;
+    top: 80px;
+}
+.fourth{
+    display: flex;
+    flex-direction: column;
+}
+.fifth{
+    margin-top: 120px;
+}
+ul{
+    line-height: 50px;
+    font-size: 15px;
+}
+li:hover{
+    background-color: rgb(223, 217, 217);
+    position: relative;
+    top:-5px;
+    border: 2px solid rgb(208, 206, 206);
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(238, 235, 235, 0.831);
+    justify-content: space-evenly;
+    justify-content: space-around;
+    width: 85%;
+    position: relative;
+    top: 80px;
+
+}
+section div{
+    width: 300px;
+    height: 300px;
+}
+.movie{
+    border: 5px solid white;
+}
+h1{
+    text-align: left;
+}
+h2{
+    text-align: right;
+}
+.movie{
+    display: flex;
+    flex-direction: column;
+}
+.movie-details{
+    background-color: rgba(247, 237, 237, 0.071);
+    width: 300px;
+    height:100px;
+    color: white;
+    position: relative;
+    top: -80px;
+    z-index: 1;
+    box-sizing: border-box;
+}
+.movie-info h2{
+    color: rgb(255, 255, 255);
+}
+.movie img:hover{
+    position: relative;
+    top: -9px;
+    right:-5px;
+    border: 5px solid black;
+}
+.movie-details:hover{
+    position: relative;
+    right: -9px;
+    color:white;
+}
